@@ -170,4 +170,7 @@ new Promise((resolve, reject) =>{
 });
 
 
+
+// async await promice 怪しい
+
 ```
