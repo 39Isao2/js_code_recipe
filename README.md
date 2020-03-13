@@ -5,12 +5,14 @@ jsコードレシピのメモ
 ```
 
 
+// 変数宣言
 let hoge = 'test';
 
-function => hoge (){
-    alert('test');
-}
+let myFunction = () => console.log('hoge');
 
+// 定数宣言
+const NAME = "なみえ";
+NAME = "あむろ"; //エラー
 
 
 ```
