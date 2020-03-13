@@ -124,4 +124,18 @@ console.log('ここに文字いれるらしい{$mozi}');
 
 
 
+// Promiseの使い方
+
+const promise = new Promise((resolve) =>{
+    setTimeout(()=>{
+        resolve();
+    },1000);
+});
+
+promise.then(()=>{
+    console.log('次の処理'); //1秒後に実行される
+});
+
+
+
 ```
