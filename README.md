@@ -154,6 +154,20 @@ promise.catch((val)=>{
     console.log(val); //失敗
 });
 
+// メソッドチェーンで簡易的につなげる
+new Promise((resolve, reject) =>{
+    if(flg === true){
+        resolve('成功');
+    } else {
+        reject('失敗');
+    }
+})
+.then((val)=>{
+    console.log(val); //成功
+})
+.catch((val)=>{
+    console.log(val); //失敗
+});
 
 
 ```
