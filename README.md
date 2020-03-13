@@ -137,5 +137,23 @@ promise.then(()=>{
 });
 
 
+// Promiseの使い方 失敗含む
+
+const promise = new Promise((resolve, reject) =>{
+    if(flg === true){
+        resolve('成功');
+    } else {
+        reject('失敗');
+    }
+});
+
+promise.then((val)=>{
+    console.log(val); //成功
+});
+promise.catch((val)=>{
+    console.log(val); //失敗
+});
+
+
 
 ```
