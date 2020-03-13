@@ -41,7 +41,18 @@ const myFunction = a =>{
 const myFunction = (a) => a + 2;
 
 
+function calc(p, tax = 0.08){
+  const r = p + p * tax;
+  return r;
+}
 
+const result = calc(100);
+console.log(result);   // 108
+
+
+// iphoneかどうかの判定
+const isIOs = navigator.userAgent.includes('iphone');
+if(isIOs){}
 
 
 ```
