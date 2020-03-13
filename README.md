@@ -112,5 +112,8 @@ btn.addEventListener('click', (event) =>{
 });
 
 
+// 画面サイズがウインどうを超えた時
+const w = matchMedia('(min-width:500px;)');
+
 
 ```
