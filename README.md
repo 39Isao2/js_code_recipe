@@ -87,6 +87,10 @@ const person = {
 	}
 }
 
+// objecthはconstで定義しても深い階層はいじれちゃう
+// そんな時は 
+'use strict'
+object.freeze(person);
 
 
 
