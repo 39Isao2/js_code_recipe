@@ -93,9 +93,23 @@ const person = {
 object.freeze(person);
 
 
+// 時間差処理
+setTimeout( () =>{
+	// 何かが起きる
+},1000);
+
+setInterval(()=>{
+	// 何かが繰り返される
+},1000);
 
 
+btn.addEventListener('click', () =>{
+	
+});
 
+btn.addEventListener('click', (event) =>{
+	
+});
 
 
 
