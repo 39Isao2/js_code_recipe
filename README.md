@@ -79,6 +79,12 @@ const person = {
 	id : 1,
 	name : '鈴木',
 	age : 28
+	method: () => {
+	    console.log('hoeghoeg');
+	},
+        method2: function(){
+	    console.log('hoeghoeg');
+	}
 }
 
 
