@@ -14,5 +14,10 @@ let myFunction = () => console.log('hoge');
 const NAME = "なみえ";
 NAME = "あむろ"; //エラー
 
+function myFunction(a){
+  const result = a+2;
+  return result;
+}
+
 
 ```
