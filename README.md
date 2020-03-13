@@ -169,7 +169,7 @@ new Promise((resolve, reject) =>{
     console.log(val); //失敗
 });
 
-
+console.table(); //便利
 
 // async await promice 怪しい
 
