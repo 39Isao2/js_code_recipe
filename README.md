@@ -60,12 +60,28 @@ if(isIOs){}
 const array = ['鈴木', '佐藤', '高橋'];
 console,log(array); // 3
 
-array.forEach((value, index) =>{
 
+
+array.forEach((value, index) =>{
     // インデックス
     console.log(index, value);   // 0 イチゴ  1 みかん 2 りんご
-    
 });
+
+// forループもかけるよ
+for(const value of array){
+    console.log(value);  // イチゴ みかん りんご
+}
+
+
+// 人物データを保持したオブジェクト
+
+const person = {
+	id : 1,
+	name : '鈴木',
+	age : 28
+}
+
+
 
 
 
