@@ -20,4 +20,15 @@ function myFunction(a){
 }
 
 
+// アロー関数
+関数を簡略化して記述可能
+thisを束縛できる
+
+const calcSum = (a,b,c) => {
+    const r = a + b + c;
+    return r;
+}
+
+calcSum(1,2,3);
+
 ```
