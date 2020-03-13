@@ -31,4 +31,17 @@ const calcSum = (a,b,c) => {
 
 calcSum(1,2,3);
 
+
+/* 引数の省略 */
+const myFunction = a =>{
+    return a+2;
+}
+
+// アロー関数の処理が一行の時は{}とreturnを省略できる
+const myFunction = (a) => a + 2;
+
+
+
+
+
 ```
