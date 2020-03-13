@@ -56,5 +56,21 @@ if(isIOs){}
 
 
 
+// 配列の扱い
+const array = ['鈴木', '佐藤', '高橋'];
+console,log(array); // 3
+
+array.forEach((value, index) =>{
+
+    // インデックス
+    console.log(index, value);   // 0 イチゴ  1 みかん 2 りんご
+    
+});
+
+
+
+
+
+
 
 ```
