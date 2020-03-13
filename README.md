@@ -171,6 +171,6 @@ new Promise((resolve, reject) =>{
 
 console.table(); //便利
 
-// async await promice 怪しい、thisについてしる
+// async await promice 怪しい、thisについてしる、チャプター19
 
 ```
