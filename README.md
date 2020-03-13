@@ -116,4 +116,10 @@ btn.addEventListener('click', (event) =>{
 const w = matchMedia('(min-width:500px;)');
 
 
+// 変数に文字列雲こみ
+
+const mozi = "hello";
+
+console.log('ここに文字いれるらしい{$mozi}');
+
 ```
